@@ -16,11 +16,11 @@ veoveo-skills = { git = "https://github.com/VeoveoAI/veoveo-core", rev = "a8dafe
 veoveo-types = { git = "https://github.com/VeoveoAI/veoveo-core", rev = "a8dafe90206d1cadbb1d2de26304fe061a542ffd" }
 # The Rust SDK for Veoveo MCP servers: the contract feature for declarations, the server
 # feature for hosting, registration and the forwarded identity.
-veoveo-hub-sdk = { git = "https://github.com/VeoveoAI/veoveo-hub-sdk", rev = "14a649f3e37dca39a4bb29fc39dd03c6565b0490", default-features = false }
+veoveo-hub-sdk = { git = "https://github.com/VeoveoAI/veoveo-hub-sdk", rev = "5ff33f1f669385099fdd405f6e6bbd6ee190a45c", default-features = false }
 # The App's look and its gallery.
 veoveo-hub-ui = { git = "https://github.com/VeoveoAI/veoveo-hub-ui", rev = "632e0fb479f9e62889d8c99f40bda79aeb1b60e9" }
 # The Thumb server's contract, for pictures of files. It pins this SDK revision, so the two move together.
-veoveo-mcp-thumb = { git = "https://github.com/VeoveoAI/veoveo-mcp-thumb", rev = "a0e83b4639964060ae2ed669285b409524595863", default-features = false }
+veoveo-mcp-thumb = { git = "https://github.com/VeoveoAI/veoveo-mcp-thumb", rev = "927a4c9cf4b24e7742718a1159c065297d2a547c", default-features = false }
 
 anyhow = "=1.0.104"
 axum = { version = "0.8.9", default-features = false }
@@ -32,7 +32,7 @@ futures = "0.3.34"
 # The SDK's HTTP client release; registration and the tests share it.
 reqwest = { version = "=0.13.5", default-features = false }
 # The rmcp fork the SDK pins; the tool router uses its macros.
-rmcp = { version = "=3.8.0", git = "https://github.com/VeoveoAI/rust-sdk", rev = "d45f7f5e43e910f818400ca702cc904c5682c213" }
+rmcp = { version = "=3.9.0", git = "https://github.com/VeoveoAI/rust-sdk", rev = "e8c8868f252b22835b960942d38a4b51182e0270" }
 rustls = { version = "0.23.46", default-features = false, features = ["ring", "std", "tls12"] }
 secrecy = "0.10.3"
 tempfile = "=3.27.0"
