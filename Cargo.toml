@@ -20,7 +20,7 @@ veoveo-hub-sdk = { git = "https://github.com/VeoveoAI/veoveo-hub-sdk", rev = "18
 # The App's look and its gallery.
 veoveo-hub-ui = { git = "https://github.com/VeoveoAI/veoveo-hub-ui", rev = "632e0fb479f9e62889d8c99f40bda79aeb1b60e9" }
 # The Thumb server's contract, for pictures of files. It pins this SDK revision, so the two move together.
-veoveo-mcp-thumb = { git = "https://github.com/VeoveoAI/veoveo-mcp-thumb", rev = "b81219559132590fdb9f50d5771881088d32d5ca", default-features = false }
+veoveo-mcp-thumb = { git = "https://github.com/VeoveoAI/veoveo-mcp-thumb", rev = "ff3753ef3a29c16e62275da192e453149c6a7b2e", default-features = false }
 
 anyhow = "=1.0.104"
 axum = { version = "0.8.9", default-features = false }

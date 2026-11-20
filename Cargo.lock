@@ -3679,7 +3679,7 @@ dependencies = [
 [[package]]
 name = "veoveo-mcp-thumb"
 version = "0.1.0"
-source = "git+https://github.com/VeoveoAI/veoveo-mcp-thumb?rev=b81219559132590fdb9f50d5771881088d32d5ca#b81219559132590fdb9f50d5771881088d32d5ca"
+source = "git+https://github.com/VeoveoAI/veoveo-mcp-thumb?rev=ff3753ef3a29c16e62275da192e453149c6a7b2e#ff3753ef3a29c16e62275da192e453149c6a7b2e"
 dependencies = [
  "schemars",
  "serde",
