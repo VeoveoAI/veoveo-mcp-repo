@@ -12,15 +12,15 @@ publish = false
 
 [workspace.dependencies]
 # veoveo-core, pinned to one revision for every core crate.
-veoveo-skills = { git = "https://github.com/VeoveoAI/veoveo-core", rev = "a8dafe90206d1cadbb1d2de26304fe061a542ffd" }
-veoveo-types = { git = "https://github.com/VeoveoAI/veoveo-core", rev = "a8dafe90206d1cadbb1d2de26304fe061a542ffd" }
+veoveo-skills = { git = "https://github.com/VeoveoAI/veoveo-core", rev = "9be8fac678163aae5cc76b87987282f739d5c2bc" }
+veoveo-types = { git = "https://github.com/VeoveoAI/veoveo-core", rev = "9be8fac678163aae5cc76b87987282f739d5c2bc" }
 # The Rust SDK for Veoveo MCP servers: the contract feature for declarations, the server
 # feature for hosting, registration and the forwarded identity.
-veoveo-hub-sdk = { git = "https://github.com/VeoveoAI/veoveo-hub-sdk", rev = "fb79f3f24b289b0afc647d2a3da208f858d08f10", default-features = false }
+veoveo-hub-sdk = { git = "https://github.com/VeoveoAI/veoveo-hub-sdk", rev = "18a6e8c5f8a69ca57a6e12f8b752203574efa231", default-features = false }
 # The App's look and its gallery.
 veoveo-hub-ui = { git = "https://github.com/VeoveoAI/veoveo-hub-ui", rev = "632e0fb479f9e62889d8c99f40bda79aeb1b60e9" }
 # The Thumb server's contract, for pictures of files. It pins this SDK revision, so the two move together.
-veoveo-mcp-thumb = { git = "https://github.com/VeoveoAI/veoveo-mcp-thumb", rev = "d5d1eac4c25dd62ed263eb36047849fc5832931d", default-features = false }
+veoveo-mcp-thumb = { git = "https://github.com/VeoveoAI/veoveo-mcp-thumb", rev = "b81219559132590fdb9f50d5771881088d32d5ca", default-features = false }
 
 anyhow = "=1.0.104"
 axum = { version = "0.8.9", default-features = false }
