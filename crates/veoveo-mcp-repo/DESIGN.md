@@ -121,3 +121,13 @@ No tables. The registration's `keys/` and the `pictures/` it was handed under `/
 | Unit | Names, a listing's shape, what shows a folder, which folders are objects, a page and a search, kept pictures, the App's document, what the factory says of a revision, a file's diff, a summary |
 | `tests/mcp.rs` | Discovery, permissions, a refused path, the App, the skill's manifest |
 | Deployed | Grants deciding what a person sees, a link to a repository without a grant, and the viewer and gallery in browsers |
+
+## Patched URL client boundary
+
+The native contract and server share the qualified Core and SDK source revisions
+using upstream url 2.5.9 and its RUSTSEC-2026-0592 origin fix. The server consumes
+Thumb through its separately checked unchanged contract. This dependency-only
+transition changes no public Repo request/result bytes, source access, branch
+semantics or gallery behavior. Both ordinary Mac and Linux Docker checks remain
+required. A consumer may select the qualified contract revision without requiring
+a Repo service rollout when the existing on-wire API is unchanged.
